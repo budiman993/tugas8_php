@@ -4,217 +4,38 @@
 <body>
 
 
-<table  height="200px">
-<tr>
-<td>
 <?php
-for($k=1; $k<=2; $k++){
-for( $a=10; $a>0; $a--){
-    for($i=1; $i<=$a; $i++){
+$kol=9;
+$row=2;
+echo "<table>";
+for ($n=1; $n<=$kol; $n++) {
+   echo "<tr>";
+   for ($o=1; $o<=$kol; $o++) {      
+      echo "<td>";
+      for( $a=10; $a>0; $a--){
+    	for($i=1; $i<=$a; $i++){
         echo "_";
-    }for($a1=10; $a1>$a; $a1--){
+    	}for($a1=10; $a1>$a; $a1--){
         echo"x";
-    }for($a2=10; $a2>$a; $a2--){
+    	}for($a2=10; $a2>$a; $a2--){
         echo"x";
-    }echo"<br>";
+    	}echo"<br>";
+	}
+	for($b=0; $b<=10; $b++){
+	    for($j=1; $j<=$b; $j++){
+	        echo"_";
+	    }for($b1=10; $b1>$b; $b1--){
+	        echo"x";
+	    }for($b2=10; $b2>$b; $b2--){
+	        echo"x";
+	    }echo"<br>";
+	}
+      echo "</td>";      	
+   }
+   echo "</tr>";
 }
-for($b=0; $b<=10; $b++){
-    for($j=1; $j<=$b; $j++){
-        echo"_";
-    }for($b1=10; $b1>$b; $b1--){
-        echo"x";
-    }for($b2=10; $b2>$b; $b2--){
-        echo"x";
-    }echo"<br>";
-}}
+echo "</table>";
 ?>
-</td>
-<td>
-<?php
-for($k=1; $k<=2; $k++){
-for( $a=10; $a>0; $a--){
-    for($i=1; $i<=$a; $i++){
-        echo "_";
-    }for($a1=10; $a1>$a; $a1--){
-        echo"x";
-    }for($a2=10; $a2>$a; $a2--){
-        echo"x";
-    }echo"<br>";
-}
-for($b=0; $b<=10; $b++){
-    for($j=1; $j<=$b; $j++){
-        echo"_";
-    }for($b1=10; $b1>$b; $b1--){
-        echo"x";
-    }for($b2=10; $b2>$b; $b2--){
-        echo"x";
-    }echo"<br>";
-}}
-?>
-</td>
-<td>
-<?php
-for($k=1; $k<=2; $k++){
-for( $a=10; $a>0; $a--){
-    for($i=1; $i<=$a; $i++){
-        echo "_";
-    }for($a1=10; $a1>$a; $a1--){
-        echo"x";
-    }for($a2=10; $a2>$a; $a2--){
-        echo"x";
-    }echo"<br>";
-}
-for($b=0; $b<=10; $b++){
-    for($j=1; $j<=$b; $j++){
-        echo"_";
-    }for($b1=10; $b1>$b; $b1--){
-        echo"x";
-    }for($b2=10; $b2>$b; $b2--){
-        echo"x";
-    }echo"<br>";
-}}
-?>
-</td>
-<td>
-<?php
-for($k=1; $k<=2; $k++){
-for( $a=10; $a>0; $a--){
-    for($i=1; $i<=$a; $i++){
-        echo "_";
-    }for($a1=10; $a1>$a; $a1--){
-        echo"x";
-    }for($a2=10; $a2>$a; $a2--){
-        echo"x";
-    }echo"<br>";
-}
-for($b=0; $b<=10; $b++){
-    for($j=1; $j<=$b; $j++){
-        echo"_";
-    }for($b1=10; $b1>$b; $b1--){
-        echo"x";
-    }for($b2=10; $b2>$b; $b2--){
-        echo"x";
-    }echo"<br>";
-}}
-?>
-</td>
-<td>
-<?php
-for($k=1; $k<=2; $k++){
-for( $a=10; $a>0; $a--){
-    for($i=1; $i<=$a; $i++){
-        echo "_";
-    }for($a1=10; $a1>$a; $a1--){
-        echo"x";
-    }for($a2=10; $a2>$a; $a2--){
-        echo"x";
-    }echo"<br>";
-}
-for($b=0; $b<=10; $b++){
-    for($j=1; $j<=$b; $j++){
-        echo"_";
-    }for($b1=10; $b1>$b; $b1--){
-        echo"x";
-    }for($b2=10; $b2>$b; $b2--){
-        echo"x";
-    }echo"<br>";
-}}
-?>
-</td>
-<td>
-<?php
-for($k=1; $k<=2; $k++){
-for( $a=10; $a>0; $a--){
-    for($i=1; $i<=$a; $i++){
-        echo "_";
-    }for($a1=10; $a1>$a; $a1--){
-        echo"x";
-    }for($a2=10; $a2>$a; $a2--){
-        echo"x";
-    }echo"<br>";
-}
-for($b=0; $b<=10; $b++){
-    for($j=1; $j<=$b; $j++){
-        echo"_";
-    }for($b1=10; $b1>$b; $b1--){
-        echo"x";
-    }for($b2=10; $b2>$b; $b2--){
-        echo"x";
-    }echo"<br>";
-}}
-?>
-</td>
-<td>
-<?php
-for($k=1; $k<=2; $k++){
-for( $a=10; $a>0; $a--){
-    for($i=1; $i<=$a; $i++){
-        echo "_";
-    }for($a1=10; $a1>$a; $a1--){
-        echo"x";
-    }for($a2=10; $a2>$a; $a2--){
-        echo"x";
-    }echo"<br>";
-}
-for($b=0; $b<=10; $b++){
-    for($j=1; $j<=$b; $j++){
-        echo"_";
-    }for($b1=10; $b1>$b; $b1--){
-        echo"x";
-    }for($b2=10; $b2>$b; $b2--){
-        echo"x";
-    }echo"<br>";
-}}
-?>
-</td>
-<td>
-<?php
-for($k=1; $k<=2; $k++){
-for( $a=10; $a>0; $a--){
-    for($i=1; $i<=$a; $i++){
-        echo "_";
-    }for($a1=10; $a1>$a; $a1--){
-        echo"x";
-    }for($a2=10; $a2>$a; $a2--){
-        echo"x";
-    }echo"<br>";
-}
-for($b=0; $b<=10; $b++){
-    for($j=1; $j<=$b; $j++){
-        echo"_";
-    }for($b1=10; $b1>$b; $b1--){
-        echo"x";
-    }for($b2=10; $b2>$b; $b2--){
-        echo"x";
-    }echo"<br>";
-}}
-?>
-</td>
-<td>
-<?php
-for($k=1; $k<=2; $k++){
-for( $a=10; $a>0; $a--){
-    for($i=1; $i<=$a; $i++){
-        echo "_";
-    }for($a1=10; $a1>$a; $a1--){
-        echo"x";
-    }for($a2=10; $a2>$a; $a2--){
-        echo"x";
-    }echo"<br>";
-}
-for($b=0; $b<=10; $b++){
-    for($j=1; $j<=$b; $j++){
-        echo"_";
-    }for($b1=10; $b1>$b; $b1--){
-        echo"x";
-    }for($b2=10; $b2>$b; $b2--){
-        echo"x";
-    }echo"<br>";
-}}
-?>
-</td>
-</tr>
-</table>
 
 
 </body>
